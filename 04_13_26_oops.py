@@ -89,3 +89,48 @@
 
 # example 8 
 
+#example - 9
+
+# class test:
+#     def __init__(self):
+#         self.__amount = 5000
+#         def display_amount(self):
+#             return self.__amount
+        
+# t1 = test()
+# print(t1.display_amount())
+
+#example - 10 
+
+# class parent:
+#     def test1(self):
+#         print("Parent..!")
+
+# class child(parent):
+#     def test2(self):
+#         print("Child...!")
+
+# obj = child()
+# obj.test1()
+# obj.test2()
+
+
+#Example 11 
+
+# class parent:
+#     def test1(self):
+#         print("Parent..!")
+
+# class child(parent):
+#     def test2(self):
+#         print("Child...!")
+
+# class subchild(child):
+#     def test3(self):
+#         print("SubChild...!")
+
+# obj = subchild()
+# obj.test1()
+# obj.test2()
+# obj.test3()
+
