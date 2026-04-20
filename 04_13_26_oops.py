@@ -293,9 +293,117 @@
 
 
 
-import numpy as np
+# import numpy as np
 
-print (np.zeros((2,3)))
+# print (np.zeros((2,3)))
+
+# example - 3 slicing operations 
+
+# list1 = np.array[10,20,30,40,50]
+# print(list1(0))
+
+# print(list1([0]))
+# print(list1([-5]))
+# print(list1([1:3]))
+# print(list1([1:]))
+# print(list1([:3]))
 
 
+# list1= np.array([[1,2,3],[4,5,6]])
+
+# print(list1[0][0])
+# print(list1[1][2])
+
+#vectorization
+
+# list1 = np.array([1,2,3])
+# print (list1 +2)
+# print(list1-2)
+# print(list1 *2)
+# print(list1/2)
+# print(list1 **2)
+
+
+#example - 7 
+
+# list1= np.array([1,2,3,4,5,6])
+# print(f'min elemenet{np.min(list1)}')
+# print(f'max elemenet{np.max(list1)}')
+# print(f'sum of elemenet{np.sum(list1)}')
+# print(f'mean of elemenet{np.mean(list1)}')
+# print(f'squareroot of elemenet{np.sqrt(list1)}')
+
+
+#example 8 
+
+#example 9 
+
+# list1 = np.array([1,2],
+#                  [3,4])
+# list2 = np.array([5,6],
+#                  [7,8])
+
+# print(np.dot(list1,list2))
+
+
+# 0 10 100 42 (this is for seed to get same numbers)
+
+
+# np.random.seed(42)
+# print(np.random.rand(2,2))
+# print(np.random.randint((1,10,(2,2)))
+# print(np.random.rand(3))
+
+
+
+# print(np.full((3,3),100)) 
+
+# list1= np.array([10,20,30,40,50])
+# print(list1[list1>10])
+# print(list1[list1>30])
+
+# list1= np.array([[1,2,3],[4,5,6]])
+# print(np.array(list1,axis=0)) # column wise sum
+# print(np.array(list1,axis=1)) #row wise sum
+
+# list1= np.arrage(6)
+# list2 = list1.reshape (2,3) # convert 1D to multidimension
+# list3 = list2.flatten() # convert multidimension to 1D
+# print(list3)
+
+# list1 = np.array([1,2])
+# print(list1.reshape(-1,1))
+
+
+# list1= np.array([1,2])
+# list2= np.array([3,4])
+# print(np.vstack((list1,list2)))
+# print(np.hstack((list1,list2)))
+
+# list1= np.array([1,2,3,4,5,6,7,8])
+# newlist= np.split(list1,3)
+# print( newlist[0])
+
+# list1= np.array([1,2,3])
+# list2 = list1 # this is called reference copy 
+# list1[0]=1000
+# print(list1)
+# print(list2)
+
+# list1= np.array([1,2,3])
+# list2 = list1.copy() # this is called shallow copy 
+# list1[0]=1000
+# print(list1)
+# print(list2)
+
+# list1 = np.array([1,2,3])
+# print(np.sort(list1)) # this sorts the list
+# print(np.argsort(list1)) # this gives indexes before sorting
+
+# list1 = np.array([[1,2],[4,5]])
+# list2 = np.array([[6,7],[8,9]])
+
+# new_list1= np.dot(list1,list2)
+# print(new_list1)
+# print(new_list1.T) # transpose - convert rows into columns
 
