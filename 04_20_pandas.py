@@ -7,12 +7,12 @@ import pandas as pd
 
 #example -2
 
-data = {
-    "name":["std1","std2","std3","std4","std5"],
-    "marks":[10,20,30,40,50]
-}
-df= pd.DataFrame(data)
-#print(df)
+# data = {
+#     "name":["std1","std2","std3","std4","std5"],
+#     "marks":[10,20,30,40,50]
+# }
+# df= pd.DataFrame(data)
+# print(df)
 #print(df.head()) # top 5 rows
 #print(df.head(4)) # top 4 rows
 #print(df.tail(2)) # last 2 rows 
